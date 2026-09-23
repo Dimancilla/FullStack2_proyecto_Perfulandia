@@ -1,61 +1,45 @@
-/*
-  ESTILOS GENERALES
-  Esto le da un look básico a toda tu página.
-*/
 body {
-    font-family: Arial, sans-serif; /* Usamos una letra fácil de leer */
-    background-color: #f8f9fa; /* Un color de fondo claro */
-    margin: 0; /* Para que la página ocupe todo el espacio sin bordes blancos */
-    padding-bottom: 70px; /* Le da espacio al final para que el pie de página no se vea pegado */
-    position: relative; /* Ayuda a que el pie de página se quede abajo */
-    min-height: 100vh; /* La página siempre ocupará al menos toda la pantalla de alto */
+    font-family: Arial, sans-serif; 
+    background-color: #f8f9fa; 
+    margin: 0; 
+    padding-bottom: 70px;
+    position: relative; 
+    min-height: 100vh; 
 }
 
-/*
-  ESTILOS DEL MENÚ
-  Aquí se arregla cómo se ve la parte de arriba de la página.
-*/
+
+
 header {
     margin-bottom: 20px;
 }
 
 .navbar-brand {
-    font-weight: bold; /* El nombre de la tienda se ve más negrito */
+    font-weight: bold; 
 }
 
-/*
-  ESTILOS PARA LAS TARJETAS DE PERFUMES
-  Así se ven bonitas las cajitas de cada perfume.
-*/
+
+
 .card {
-    border: 1px solid #ddd; /* Un borde delgadito */
-    border-radius: 8px; /* Esquinas redondeadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Una sombra para que parezca que está "flotando" */
-    transition: transform 0.2s; /* Hace que se mueva suavemente cuando pones el mouse encima */
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; 
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Se mueve un poquito hacia arriba cuando lo tocas con el mouse */
+    transform: translateY(-5px); 
 }
 
-/*
-  ESTILOS PARA EL CARRITO
-  Así se ve el recuadro donde pones los perfumes que quieres comprar.
-*/
 #carrito-container {
-    background-color: #e9ecef; /* Un color de fondo para que destaque */
+    background-color: #e9ecef; 
     padding: 20px;
     border-radius: 8px;
 }
 
-/*
-  ESTILOS DEL PIE DE PÁGINA
-  Para que la parte de abajo de la página se vea bien.
-*/
 footer {
-    position: absolute; /* Para que siempre esté al final de la página */
-    bottom: 0; /* Lo pega abajo de todo */
+    position: absolute; 
+    bottom: 0; 
     width: 100%;
-    background-color: #343a40; /* Fondo oscuro */
-    color: white; /* Letras blancas para que se lean bien */
+    background-color: #343a40; 
+    color: white; 
 }
